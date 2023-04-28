@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/node_modules/bulma/css/bulma.min.css">
     <link rel="stylesheet" href="/css/header.css">
-    <title>Inscription</title>
+    <title>Mon compte</title>
 </head>
 
 <body class="has-background-grey-lighter">
@@ -70,81 +70,58 @@
 
     <!-- Body -->
 
-    <!-- Inscription -->
+    <div class="columns">
 
-    <div class="column is-three-fifths is-offset-one-fifth ">
+        <!-- Colonne 1 -->
 
-        <form class="box m-6 p-6">
+        <div class="column is-three-fifths">
 
-            <h2 class="title has-text-centered">S'inscrire</h2>
+            <main class="box mt-6">
 
-            <!-- Nom -->
+                <h2 class="title has-text-centered">Votre compte</h2>
 
-            <label class="label" for="">Entrez votre nom*</label>
+                <br>
 
-            <input class="input" type="text" placeholder="Entrez votre nom ici" required>
+                <p class="ml-6">Votre nom: <span class="has-text-weight-bold ml-6">Poteau</span></p>
+                <br>
+                <p class="ml-6">Votre prénom: <span class="has-text-weight-bold ml-6">Florian</span></p>
+                <br>
+                <p class="ml-6">Votre age: <span class="has-text-weight-bold ml-6">21 ans</span></p>
+                <br>
+                <p class="ml-6">Votre mail: <span class="has-text-weight-bold ml-6">mail@mail.com</span></p>
+                <br>
+                <p class="ml-6">Votre mot de passe: <span class="has-text-weight-bold ml-6">************</span></p>
 
-            <br>
-            <br>
+            </main>
 
-            <!-- Prénom -->
 
-            <label class="label" for="">Entrez votre prénom*</label>
+        </div>
 
-            <input class="input" type="text" placeholder="Entrez votre prénom ici" required>
+        <!-- Colonne 2 -->
 
-            <br>
-            <br>
+        <div class="column">
 
-            <!-- Age -->
+            <main class="box mt-6">
 
-            <label class="label" for="">Entrez votre age*</label>
-            <input class="input" type="number" placeholder="Entrez votre age ici" pattern="{3}" required>
+                <h2 class="title has-text-centered">Pas de compte ?</h2>
 
-            <br>
-            <br>
+                <div class="is-flex is-justify-content-space-around">
 
-            <!-- Email -->
+                    <img class="" src="/images/réseau.png" alt="">
 
-            <label class="label" for="">Entrez votre mail*</label>
-            <input class="input" type="email" placeholder="Entrez votre mail ici" required>
-
-            <br>
-            <br>
-
-            <!-- Mot de passe -->
-
-            <label for="" class="label">Entrez votre mot de passe*</label>
-            <input class="input" type="password" placeholder="Entrez votre mot de passe ici" required>
-            <br>
-            <br>
-
-            <!-- Condition -->
-
-            <div class="field">
-                <div class="control">
-                    <label class="checkbox">
-                        <input type="checkbox" required>
-                        J'accepte les <a href="#">termes et les conditions</a>
-                    </label>
                 </div>
-            </div>
 
-            <!-- Bouton envoyé -->
+                <div class="has-text-centered mt-4">
 
-            <div class="control">
-                <a href="/html/accueil.html"><button class="button is-link">S'inscrire</button></a>
-            </div>
-            <br>
+                    <p>Vous n'avez pas de compte?<a href="inscription.html">
+                            Inscrivez-vous
+                        </a></p>
 
-            <!-- Compte existant -->
+                </div>
 
-            <p>J'ai déja <a href="/html/connection.html">un compte</a></p>
+            </main>
 
-
-    </div>
-
-    </form>
+        </div>
 
     </div>
 
@@ -178,7 +155,6 @@
 
         </div>
     </footer>
-
 
 </body>
 
