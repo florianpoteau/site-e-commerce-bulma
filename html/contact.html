@@ -9,13 +9,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/node_modules/bulma/css/bulma.min.css">
     <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/panier.css">
-    <title>Panier</title>
+    <title>Contact</title>
 </head>
 
-<body class="has-background-grey-lighter bod">
+<body>
 
-    <div class="body1">
+    <body class="has-background-grey-lighter">
 
         <!-- header -->
         <nav class="navbar has-background-primary" role="navigation" aria-label="main navigation">
@@ -74,72 +73,68 @@
 
         <!-- Body -->
 
+        <!-- Formulaire -->
 
-        <main class="container has-background-light m-6 pb-6">
+        <div class="column is-three-fifths is-offset-one-fifth ">
 
-            <div class="columns">
+            <form class="box m-6 p-6">
 
-                <!-- Colonne de gauche -->
+                <h2 class="title has-text-centered">Formulaire</h2>
 
-                <div class="column is-two-fifths ml-6">
+                <!-- Nom -->
 
-                    <img class="ml-6 mt-3" src="/images/imagePagePanier.jpg" alt="">
-                    <div class="column is-three-fifths is-offset-one-fifth box mt-6">
+                <label class="label" for="">Entrez votre nom*</label>
 
-                        <p>
-                            Votre prix exclusif:
-                        </p>
-                        <br>
-                        <p class="has-text-weight-bold">599.99€ <span class="has-text-weight-normal">TTC</span></p>
-                        <br>
-                        <div class="column">
-                            <a class="mr-5" href=""><button class="button is-success acheter">Acheter</button></a>
-                            <a href="produit.html"><button class="button is-link is-rounded">Retour</button></a>
-                        </div>
+                <input class="input" type="text" placeholder="Entrez votre nom ici" required>
 
+                <br>
+                <br>
+
+                <!-- Prénom -->
+
+                <label class="label" for="">Entrez votre prénom*</label>
+
+                <input class="input" type="text" placeholder="Entrez votre prénom ici" required>
+
+                <br>
+                <br>
+
+                <!-- Email -->
+
+                <label class="label" for="">Entrez votre mail*</label>
+                <input class="input" type="email" placeholder="Entrez votre mail ici" required>
+
+                <br>
+                <br>
+
+                <!-- Textarea -->
+
+                <textarea class="textarea" placeholder="Entrez votre message ici"></textarea>
+
+                <!-- Condition -->
+
+                <div class="field">
+                    <div class="control">
+                        <label class="checkbox">
+                            <input type="checkbox" required>
+                            J'accepte les <a href="#">termes et les conditions</a>
+                        </label>
                     </div>
-
                 </div>
 
-                <!-- Colonne de droite -->
+                <!-- Bouton envoyé -->
 
-                <div class="column">
-
-                    <h2 class="title has-text-centered mt-6">Ordinateur HP 32bits</h2>
-                    <br>
-                    <p class="ml-6 mb-4 has-text-weight-bold">Ordinateur HP 32 bits: </p>
-                    <ul class="ml-4">
-                        <li>Windows 11 Famille</li>
-                        <li>Intel® Core™ i3 1115G4 (11ème génération)</li>
-                        <li>8 Go RAM</li>
-                        <li>256 Go Disque SSD</li>
-                        <li>35.6 cm (14 "), FHD (1920 x 1080), 250 nits, 45% NTSC</li>
-                        <li>Carte graphique Intel® UHD</li>
-                    </ul>
-
-                    <h2 class="title mt-6 has-text-centered mb-6">Description</h2>
-
-                    <p>HP 32 bits + écran intégré</p>
-                    <p class="mr-3">Intel Core i3-6300U 2.40 GHz / 16Go RAM DDR4 / 240Go SSD / 14'' Full-HD - LED /
-                        HDMI
-                        / Webcam /
-                        WiFi / Bluetooth / Windows 11 32 bits avec licence officielle Microsoft MAR (version à choisir
-                        lors de la commande)</p>
-
-                    <br>
-
-                    <p class="mr-3">Le hp 32 bits est l’ultime preuve que les PC professionnels ne sont pas forcément
-                        ennuyants et esthétiquement peu travaillés. Avec un design de réel ultrabook, fin et léger, le
-                        7480 a de sérieux atouts.</p>
-
+                <div class="control">
+                    <a href="/html/accueil.html"><button class="button is-link">Envoyer</button></a>
                 </div>
-
-            </div>
-
+                <br>
 
 
+        </div>
 
-        </main>
+        </form>
+
+        </div>
 
         <!-- Footer -->
 
@@ -172,49 +167,6 @@
             </div>
         </footer>
 
-    </div>
-
-    <div class="box pan ">
-
-        <label class="label" for="">Entrez votre adresse:</label>
-        <input class="input" type="text">
-        <br>
-        <br>
-        <p class="has-text-weight-bold">Vos carte de paiment:</p>
-
-        <div class="columns pl-2 pt-2 pb-0">
-
-            <img src="/images/carte-bancaire.png" alt="">
-
-            <div class="column">
-
-                <p>Votre carte bancaire</p>
-
-            </div>
-
-        </div>
-        <p class="is-italic">Paiement sécurisé et sans frais</p>
-
-        <br>
-        <p>Votre livraison se fera sous un délai de: <span class="has-text-weight-bold">10 jours</span></p>
-        <br>
-
-        <div class="columns pl-6">
-            <div class="column">
-                <a href=""><button class="button button is-success payer ">Payer</button></a>
-            </div>
-
-            <div class="column">
-                <a href=""><button class="button is-link is-rounded">Retour</button></a>
-            </div>
-
-        </div>
-
-
-    </div>
-
-    <script src="/javascript/panier.js"></script>
-
-</body>
+    </body>
 
 </html>
